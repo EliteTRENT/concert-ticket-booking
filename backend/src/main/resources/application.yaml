@@ -1,3 +1,12 @@
 spring:
   application:
     name: ticket-booking
+  datasource:
+    url: jdbc:postgresql://db.budzlpvyefowhbmgtcza.supabase.co:5432/postgres?sslmode=require
+    username: postgres 
+    password: Trent@28*08*03
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
